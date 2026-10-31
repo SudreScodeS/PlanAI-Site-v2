@@ -185,3 +185,5 @@ footer ul a{color:var(--ink);display:inline-block;padding:.4rem 0}
 /* responsive-craft: min-width:0 em filhos de grid/flex, quebra de strings longas */
 .hero .wrap>*,.split>*,.group>*,.aud>*,.final .wrap>*,footer .wrap>*{min-width:0}
 body{overflow-wrap:break-word}
+.brand{flex:none}.brand img{max-width:none;height:40px;width:auto}
+@media (max-width:400px){.brand img{height:30px}.nav .wrap{gap:.75rem}.tools{gap:.35rem}}
